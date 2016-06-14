@@ -48,7 +48,7 @@ public class ChooseAdventure {
 						result21 = "You ate a magical little beatle who has a big brother. He wants to fight you. ";
 						break;
 					default:
-						result21 = "Please choose FIGHT OR SURRENDER";
+						result21 = "Please choose \"Sit down.\" or \"Eat bugs.\"";
 						break;
 				}
 				System.out.println(result21);
@@ -88,7 +88,7 @@ public class ChooseAdventure {
 						result1Ba = "You are now BIG BROTHER BEATLE's slave for eternity.";
 						break;
 					default:
-						result1Ba = "Please choose one or the other (Fight! or Surrender.), BUM!";
+						result1Ba = "Please choose one or the other \"Fight!\" or \"Surrender.\"), BUM!";
 						break;
 				}
 				System.out.println(result1Ba);
@@ -120,14 +120,14 @@ public class ChooseAdventure {
 				//OPTION 2B
 				else if(result22.contains("Booger")){
 					do{
-						System.out.println("You should choose to \"Pay the booger toll to the Booger Troll.\" or \"Bop the troll in the nose.\". ");
+						System.out.println("You should choose to \"Pay the booger toll to the Booger Troll.\" or \"Bop the booger troll on the nose.\". ");
 						result2B = input.nextLine();
 					
 						switch (result2B) {							//options for 'more traveled- also second prompt
 							case "Pay the booger toll to the Booger Troll.":
 								result2B1 = "You cross a booger bridge, slip and fall into the booger river and die. Game over.";
 								break;
-							case "Bop the troll in the nose.":
+							case "Bop the booger troll on the nose.":
 								result2B1 = "The troll slimes you like in Nickelodeon-times. You choke on slime and die. Game over.";
 								break;
 							default:
